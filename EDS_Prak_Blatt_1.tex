@@ -30,27 +30,33 @@
 	\section{Aufgabe 1: MATLAB Grundlagen}
 		\subsection{Was ist MATLAB?}
 		Matlab ist eine Hochleistungssprache für technisches Rechnen. Es integriert Berechnung, Visualisierung und Programmierung in einer benutzerfreundlichen Umgebung, in der Probleme und Lösungen in vertrauter mathematischer Notation ausgedrückt werden. \\
-		Typisch verwendet sind:
-		\begin{itemize} \item Mathematik und Rechnen \item Entwicklung von Algorithmen \item Modellierungssimulation und Visualisierung \item wissenschaftliche und technische Grafiken
-		\end{itemize} Dies ermöglicht es Ihnen, viele, technische Rechenprobleme, insbesondere solche mit Matrix- und Vektorformulierungen, in einem Bruchteil der Zeit zu lösen, die benötigt würde, um ein Programm in einer skalaren nicht-interaktiven Sprache wie C oder Fortan zu schreiben. Der Name Matlab steht für Matrixlabor.
+		Typische Verwendungen sind:
+		\begin{itemize}
+			\item Mathematik und Rechnen
+			\item Entwicklung von Algorithmen
+			\item Modellierungssimulation und Visualisierung
+			\item wissenschaftliche und technische Grafiken
+		\end{itemize}
+		 Dies ermöglicht es Ihnen, viele, technische Rechenprobleme, insbesondere solche mit Matrix- und Vektorformulierungen, in einem Bruchteil der Zeit zu lösen, die benötigt würde, um ein Programm in einer skalaren, nicht-interaktiven Sprache wie C oder Fortan zu schreiben. Der Name Matlab steht für Matrixlabor.
 		\subsection{Wesentliche Komponenten der MATLAB-Oberfläche}
 			\begin{figure}[h]
-				\includegraphics[scale=0.45]{MATLAB_Übersicht_1_b.png}
+				\includegraphics[scale=0.4]{MATLAB_Übersicht_1_b.png}
 				\caption{MATLAB Oberfläche}
 				\label{fig2: MATLABOberflaeche}
 			\end{figure}
 	\newpage
 			\begin{figure}
-				\includegraphics[scale=0.5]{TOOLStirp.png}
+				\includegraphics[scale=0.45]{TOOLStirp.png}
 				\caption{Tool-Strip im Reiter "Home". Hier lassen sich neue Skripte erstellen oder vorhandene öffnen.}
 				\label{fig3: ToolStrip_Home}
 			\end{figure}		
+	
 			\begin{figure}
-				\includegraphics[scale=0.5]{TOOLStrip_Editor.png}
+				\includegraphics[scale=0.45]{TOOLStrip_Editor.png}
 				\caption{Tool-Strip im Reiter "Editor". Mit "Run" lassen sich die Programme/Skripte starten, die man im Editor erstellt hat.}
 				\label{fig3: ToolStrip_Home}
 			\end{figure}	
-			
+		
 		\subsection{\textit{Current Folder Browser} - Wozu? Was ist zu beachten?}
 			Der Current Folder Browser zeigt Ordner und Dateien im aktuellen Arbeitsverzeichnis an. Man braucht es um den Zugriff auf die Dateien und Skripte zu erleichtern und um sicherzustellen das MATLAB die Dateien findet. Es ist wichtig die Dateien in der richtigen Stelle zu speichern, da die MATLAB-Programme standardgemäß im aktuellen Arbeitsverzeichnis ausgeführt werden. 
 		
@@ -61,7 +67,7 @@
 			Der Tool-Strip ist eine Symbolleiste, hier findet man auf häufig verwendete Funktionen. Es bietet beispielsweise schnellen Zugriff auf das Command Window oder die Hilfe-Funktionen. 
 		
 		\subsection{Zweck des \textit{Workspaces}}
-			Der Workspace zeigt die aktuellen Variablen und ihre Werte an. Man kann es vergleichen mit einer Variablenansicht in anderen Programmieumgebungen. 
+			Der Workspace zeigt die aktuellen Variablen und ihre Werte an. Man kann es vergleichen mit einer Variablenansicht in anderen Programmierumgebungen. 
 		
 		\subsection{Möglichkeiten Information von \textit{MATLAB-Hilfe} zu bekommen}
 			\begin{itemize}
@@ -72,12 +78,14 @@
 		\subsection{Simulink}
 			\begin{itemize}
 				\item MATLAB öffnen
-				\item in der Commandozeile "simulink" eingeben
-				\item oder über die Symbolleiste (Tool-Strip) Simlink starten
+				\item in der Kommandozeile "simulink" eingeben
+				\item oder über die Symbolleiste (Tool-Strip) Simulink starten
 			\end{itemize}
 		
 		\subsection{\textit{Control System Tollbox} - Was ist das? Wo findet man sie?}
-			
+			Die \textit{Control System Toolbox} ist eine Add-On Bibliothek für MATLAB. Sie bietet Algorithmen und Apps zum systematischen Analysieren, Entwerfen und Optimieren linearer Steuerungssysteme. Sie können Ihr System als Übertragungsfunktion, Zustandsraum, Nullpolverstärkung oder Frequenzgangmodell spezifizieren. Beispielswiese mit dem Sprungantwortdiagramm und dem Bode-Diagramm lässt sich das Systemverhalten im Zeit- und Frequenzbereich analysieren und visualisieren. \\
+			Die Toolbox stimmt automatisch sowohl SISO- als auch MIMO-Kompensatoren ab, einschließlich PID-Regler. Sie können verstärkungsgeplante Regler optimieren und mehrere Optimierungsziele festlegen. Man kann Designs validieren, indem man Anstiegszeit, Überschwingen, Einschwingzeit, Verstärkungs- und Phasenreserven und andere Anforderungen überprüfen. \\
+			Zu finden ist die Erweiterung im \textit{AddOn-Explorer}. Diesen wird geöffnet in dem man im Reiter "Home" im Tool-Strip auf den Button \textit{AddOns} klickt.
 		
 		\subsection{Stateflow}
 			\begin{itemize}
@@ -96,9 +104,9 @@
 		
 		
 		\subsection{Normierter Frequenzgang PT1-Glied}
-		
+			\[ G(j\omega) = \frac{K_p}{\Big(1 + j\omega \cdot T\Big)} \]
 		\subsection{Normierter Frequenzgang PT2-Glied}
-	
+			\[ G(j\omega) = \frac{K_p \cdot \omega_0^2}{(j\omega)^2 + 2\cdot d\cdot \omega_0 \cdot j\omega + \omega_0^2}\]
 	\newpage	
 	\section{Aufgabe 3: Ortskurve}
 	

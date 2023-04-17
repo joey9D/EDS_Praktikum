@@ -42,19 +42,19 @@
 			\begin{figure}[h]
 				\includegraphics[scale=0.4]{MATLAB_Übersicht_1_b.png}
 				\caption{MATLAB Oberfläche}
-				\label{fig2: MATLABOberflaeche}
+				\label{fig1: MATLABOberflaeche}
 			\end{figure}
 	\newpage
 			\begin{figure}
 				\includegraphics[scale=0.45]{TOOLStirp.png}
 				\caption{Tool-Strip im Reiter "Home". Hier lassen sich neue Skripte erstellen oder vorhandene öffnen.}
-				\label{fig3: ToolStrip_Home}
+				\label{fig2: ToolStrip_Home}
 			\end{figure}		
-	
+
 			\begin{figure}
 				\includegraphics[scale=0.45]{TOOLStrip_Editor.png}
 				\caption{Tool-Strip im Reiter "Editor". Mit "Run" lassen sich die Programme/Skripte starten, die man im Editor erstellt hat.}
-				\label{fig3: ToolStrip_Home}
+				\label{fig3: ToolStrip_Editor}
 			\end{figure}	
 		
 		\subsection{\textit{Current Folder Browser} - Wozu? Was ist zu beachten?}
@@ -104,12 +104,41 @@
 		
 		
 		\subsection{Normierter Frequenzgang PT1-Glied}
-			\[ G(j\omega) = \frac{K_p}{\Big(1 + j\omega \cdot T\Big)} \]
+			$$G(j\omega) = \frac{K_p}{\Big(1 + j\omega \cdot T\Big)}$$
 		\subsection{Normierter Frequenzgang PT2-Glied}
-			\[ G(j\omega) = \frac{K_p \cdot \omega_0^2}{(j\omega)^2 + 2\cdot d\cdot \omega_0 \cdot j\omega + \omega_0^2}\]
+			$$G(j\omega) = \frac{K_p \cdot \omega_0^2}{(j\omega)^2 + 2\cdot d\cdot \omega_0 \cdot j\omega + \omega_0^2}$$
 	\newpage	
 	\section{Aufgabe 3: Ortskurve}
+		Die Ortkurve ist eine graphische Darstellung des Frequenzgangs. Sie wird erstellt, indem man die den Frequenzbereich durchläuft, d.h. es werden einzelnen Werte (per Hand) oder alle Werte in die Übertragungsfunktion eingesetzt und etwaige Ergebnisse in den Koordinaten eingetragen.\\
+		Für die Ortskurve wird nicht die laplace transformierte Übertragfunktion mit s verwendet, sondern die normiert $j\omega$.
 	
+		\subsection{Ortskurven}
+			\subsubsection{}
+				$$G(s) = e^{-Ts}$$
+				\\
+				$$G(j\omega) = e^{-Tj\omega}$$
+			\subsubsection{}
+				$$G(s) = \frac{K\cdot e^{-Ts}}{(1+T_1\cdot s)}$$
+				\\
+				$$G(j\omega) = \frac{K\cdot e^{-Tj\omega}}{(1+T_1\cdot j\omega)}$$
+			\subsubsection{}
+				$$G(s) = \frac{K\cdot e^{-Ts}}{s(1+T_1\cdot s)}$$
+				\\
+				$$G(j\omega) = \frac{K\cdot e^{-Tj\omega}}{j\omega(1+T_1\cdot j\omega)}$$
+			\subsubsection{}
+				$$G(s) = \frac{K(T_vs+1)}{T_2s^2 + T_1s + 1}$$
+				\\
+				$$G(j\omega) = \frac{K(T_vj\omega + 1)}{T_2(j\omega)^2 + T_1j\omega + 1}$$
+		\newpage
+		\subsection{Grundverhalten der Regelglieder}		
+			\subsubsection{}
+				T-Glied/Totzeitglied
+			\subsubsection{}
+				$PT_1$-Glied
+			\subsubsection{}
+				
+			\subsubsection{}
+				$PT_2$-Glied
 	\newpage
 	\section{Aufgabe 4: MATLAB Control System Toolbox}
 	

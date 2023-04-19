@@ -3,6 +3,9 @@
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{grffile}
+\graphicspath{ {./pics} }
+\DeclareUnicodeCharacter{2028}{\linebreak}
 
 \usepackage{datetime}
 \newdateformat{myformat}{\THEDAY{ten }\monthname[\THEMONTH], \THEYEAR}
@@ -37,22 +40,22 @@
 			\item Modellierungssimulation und Visualisierung
 			\item wissenschaftliche und technische Grafiken
 		\end{itemize}
-		 Dies ermöglicht es Ihnen, viele, technische Rechenprobleme, insbesondere solche mit Matrix- und Vektorformulierungen, in einem Bruchteil der Zeit zu lösen, die benötigt würde, um ein Programm in einer skalaren, nicht-interaktiven Sprache wie C oder Fortan zu schreiben. Der Name Matlab steht für Matrixlabor.
+		Dies ermöglicht es Ihnen, viele, technische Rechenprobleme, insbesondere solche mit Matrix- und Vektorformulierungen, in einem Bruchteil der Zeit zu lösen, die benötigt würde, um ein Programm in einer skalaren, nicht-interaktiven Sprache wie C oder Fortan zu schreiben. Der Name Matlab steht für Matrixlabor.
 		\subsection{Wesentliche Komponenten der MATLAB-Oberfläche}
 			\begin{figure}[h]
-				\includegraphics[scale=0.4]{MATLAB_Übersicht_1_b.png}
+				\includegraphics[scale=0.4]{./MATLAB_Oberflaeche_1_b.png}
 				\caption{MATLAB Oberfläche}
 				\label{fig1: MATLABOberflaeche}
 			\end{figure}
 	\newpage
 			\begin{figure}
-				\includegraphics[scale=0.45]{TOOLStirp.png}
+				\includegraphics[scale=0.45]{./TOOLStirp.png}
 				\caption{Tool-Strip im Reiter "Home". Hier lassen sich neue Skripte erstellen oder vorhandene öffnen.}
 				\label{fig2: ToolStrip_Home}
 			\end{figure}		
 
 			\begin{figure}
-				\includegraphics[scale=0.45]{TOOLStrip_Editor.png}
+				\includegraphics[scale=0.45]{./TOOLStrip_Editor.png}
 				\caption{Tool-Strip im Reiter "Editor". Mit "Run" lassen sich die Programme/Skripte starten, die man im Editor erstellt hat.}
 				\label{fig3: ToolStrip_Editor}
 			\end{figure}	
@@ -97,7 +100,7 @@
 	\newpage	
 	\section{Aufgabe 2: Bodediagramme}
 		\begin{figure}[h]
- 		 	\includegraphics[scale=0.3]{Bodediagramme.png}
+ 		 	\includegraphics[scale=0.3]{./Bodediagramme.png}
 			\caption{Bodediagramme entstanden aus bodePT1.m}
 			\label{fig1: Bodediagramm1}
 		\end{figure}

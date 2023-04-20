@@ -20,7 +20,7 @@
   showstringspaces=false,
   columns=flexible,
   basicstyle={\small\ttfamily},
-  numbers=none,
+  numbers=left,
   numberstyle=\tiny\color{gray},
   keywordstyle=\color{blue},
   commentstyle=\color{dkgreen},
@@ -150,12 +150,57 @@
 			% (x, y) gib die Daten für die entsprechende Achse
 			% erstellt zweiten Plot mit den (x, y) Werten für (w, WInkel in Grad)
 		\subsection{Normierter Frequenzgang PT1-Glied}
-			Um die normierte Form der Übertragsfunktion zu bekommen, nimmt statt der Variablen \textbf{s} im laplace-trsansformiereten Bereich, die im komplexen und Frequenzbereich $j\omega$. 
+			Um die normierte Form der Übertragsfunktion zu bekommen, nimmt statt der Variablen \textbf{s} im laplace-transformiereten Bereich, die im komplexen und Frequenzbereich $j\omega$. 
 			$$G(j\omega) = \frac{K_p}{\Big(1 + j\omega \cdot T\Big)}$$
-			s
+\vspace{5mm}		
 		\subsection{Normierter Frequenzgang PT2-Glied}
-			$$G(j\omega) = \frac{K_p \cdot \omega_0^2}{(j\omega)^2 + 2\cdot d\cdot \omega_0 \cdot j\omega + \omega_0^2}$$
-	\newpage	
+			$$G(j\omega) = \frac{K_p}{(j\omega)^2 + 2\cdot d\cdot \omega_0 \cdot j\omega + \omega_0^2}$$
+\vspace{5mm}
+		\subsection{Bodediagramm PT2-Glied}
+			Für die Darstellung eines PT2-Glied wird der, unter Punkt 2 gezeigte Code wie folgt angepasst.
+\vspace{5mm}
+			\begin{lstlisting}
+				Kp = 1;
+				D = 0.1;
+
+				w=logspace(-2,2);
+				s= 1j .* w;
+				G=ones(Kp)./(1 + 2*D*s - w.^2);
+				subplot(2, 1, 1), semilogx(w, 20 * log10(abs(G)))
+				grid, ylabel('|G(omega)| [db]')
+				subplot(2, 1, 2), semilogx(w, 180*angle(G)/pi)
+				grid, xlabel('omega normiert auf omega-gernz')
+				ylabel('Phase [grad]')
+			\end{lstlisting}
+\vspace{5mm}
+			Die Zeile, auf die es zu Achten gilt ist Zeile 6. Hier musste die Formel von einem PT1-Glied angepasst werden für ein PT2-Glied. \\
+			Die Übertragsfunktion für ein PT2-Glied sieht folgender Maßen aus:
+\vspace{5mm}			
+			$$G(s) = \frac{Kp \cdot \omega_0^2}{s^2 + 2 \cdot D \cdot \omega_0^2 \cdot s + \omega_0^2}$$
+\newpage
+			Diese Formel wird für den Code angepasst. Die Resonanzfrequenz $\omega_0^2$ beginnt hier bei $1$. $s$ ist definiert aus durch $s = 1j \cdot \omega$. Da in der Formel $s^2$ verwendet wird verändert sich der Nenner der Übertragungsfunktion
+
+			$$s^2 + 2 \cdot D \cdot s + 1$$
+
+			$$= (j\omega)^2 + 2 \cdot D \cdot s + 1 $$
+
+			$$= j^2 \cdot \omega^2 + 2 \cdot D \cdot s + 1 $$
+
+			$$= - \omega^2 + 2 \cdot D \cdot s + 1$$
+
+			$$= 1 + 2 \cdot D \cdot s - \omega^2 $$
+			
+			Diese Zeile in die Übertragungsfunktion eingesetzt, sieht dann wie folgt aus:
+			
+			$$G(s) = \frac{Kp}{1 + 2 \cdot D \cdot s - \omega^2}$$
+			
+			Diese Formel stimmt nun mit Zeile 6 aus dem Code überein und liefert das nachfolgende Bodediagramm.
+			\begin{figure}
+				\includegraphics[scale = 0.3]{./bodePT2.png}
+				\caption{Bodediagramm entstanden mit den Code aus 2.3}
+				\label{fig2: Bodediagramm}
+			\end{figure}
+\newpage
 	\section{Aufgabe 3: Ortskurve}
 		Die Ortkurve ist eine graphische Darstellung des Frequenzgangs. Sie wird erstellt, indem man die den Frequenzbereich durchläuft, d.h. es werden einzelnen Werte (per Hand) oder alle Werte in die Übertragungsfunktion eingesetzt und etwaige Ergebnisse in den Koordinaten eingetragen.\\
 		Für die Ortskurve wird nicht die laplace transformierte Übertragfunktion mit s verwendet, sondern die normiert $j\omega$.
@@ -165,29 +210,52 @@
 				$$G(s) = e^{-Ts}$$
 				\\
 				$$G(j\omega) = e^{-Tj\omega}$$
+				\begin{figure}[h]
+					\includegraphics[scale = 0.6]{./Ortskurve_3_1.png}
+					\caption{Ortskurve für unseres T-Glied}
+					\label{fig3: Ortskurve}
+				\end{figure}
+\newpage
 			\subsubsection{}
 				$$G(s) = \frac{K\cdot e^{-Ts}}{(1+T_1\cdot s)}$$
 				\\
 				$$G(j\omega) = \frac{K\cdot e^{-Tj\omega}}{(1+T_1\cdot j\omega)}$$
+				\begin{figure}[h]
+					\includegraphics[scale = 0.7]{./Ortskurve_3_2.png}
+					\caption{Ortskurve für unseres T-Glied}
+					\label{fig3: Ortskurve}
+				\end{figure}
+\newpage
 			\subsubsection{}
 				$$G(s) = \frac{K\cdot e^{-Ts}}{s(1+T_1\cdot s)}$$
 				\\
 				$$G(j\omega) = \frac{K\cdot e^{-Tj\omega}}{j\omega(1+T_1\cdot j\omega)}$$
+				\begin{figure}[h]
+					\includegraphics[scale = 0.7]{./Ortskurve_3_3.png}
+					\caption{Ortskurve für unseres T-Glied}
+					\label{fig3: Ortskurve}
+				\end{figure}
+\newpage
 			\subsubsection{}
 				$$G(s) = \frac{K(T_vs+1)}{T_2s^2 + T_1s + 1}$$
 				\\
 				$$G(j\omega) = \frac{K(T_vj\omega + 1)}{T_2(j\omega)^2 + T_1j\omega + 1}$$
+				\begin{figure}[h]
+					\includegraphics[scale = 0.7]{./Ortskurve_3_4.png}
+					\caption{Ortskurve für unseres T-Glied}
+					\label{fig3: Ortskurve}
+				\end{figure}
 		\newpage
 		\subsection{Grundverhalten der Regelglieder}		
 			\subsubsection{}
-				T-Glied/Totzeitglied
+				Die erste Übertragungsfunktion besitzt das Grundverhalten eines T-Glied/Totzeitglied.
 			\subsubsection{}
-				$PT_1$-Glied
+				Die zweite Übertragungsfunktion besitzt das Grundverhalten eines $PT_1$-Glieds.
 			\subsubsection{}
-				$IT_1$-Glied
+				Die dritte Übertragungsfunktion besitzt das Grundverhalten eines $IT_1$-Glieds.
 			\subsubsection{}
-				$PT_2$-Glied
-	\newpage
+				Die vierte Übertragungsfunktion besitzt das Grundverhalten eines $PT_2$-Glieds. 
+				
 	\section{Aufgabe 4: MATLAB Control System Toolbox}
 		\subsection{Grund-Übertragungsverhalten}
 		\subsection{$G_O$ Übertragungsfunktion des offenen Regelkreises}

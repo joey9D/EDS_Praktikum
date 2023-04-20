@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.25)  19 APR 2023 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.25)  19 APR 2023 18:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -67,11 +67,41 @@ Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legacy
 Package grffile Info: This package is an empty stub for compatibility on input line 40.
 )
    defining Unicode char U+2028 (decimal 8232)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/datetime/datetime.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count195
+\lst@gtempboxa=\box51
+\lst@token=\toks19
+\lst@length=\count196
+\lst@currlwidth=\dimen144
+\lst@column=\count197
+\lst@pos=\count198
+\lst@lostspace=\dimen145
+\lst@width=\dimen146
+\lst@newlines=\count199
+\lst@lineno=\count266
+\lst@maxwidth=\dimen147
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count267
+\lst@skipnumbers=\count268
+\lst@framebox=\box52
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
  (/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count195
+\etb@tempcnta=\count269
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/fmtcount/fmtcount.sty
 Package: fmtcount 2020/01/30 v3.07
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
@@ -79,23 +109,24 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks19
-\XKV@tempa@toks=\toks20
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
 )
-\XKV@depth=\count196
+\XKV@depth=\count270
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fmtcount/fcprefix.sty
 Package: fcprefix 2012/09/28
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count197
+\fc@digit@counter=\count271
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen144
+\@emptytoks=\toks22
+\ex@=\dimen148
 )
-\c@padzeroesN=\count198
-\fc@tmpcatcode=\count199
+\c@padzeroesN=\count272
+\fc@tmpcatcode=\count273
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fmtcount/fc-ngerman.def
 File: fc-ngerman.def 2012/06/18
  (/usr/local/texlive/2023/texmf-dist/tex/latex/fmtcount/fc-german.def
@@ -105,80 +136,81 @@ File: fc-germanb.def 2013/08/17
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/fmtcount/fc-ngermanb.def
 File: fc-ngermanb.def 2013/08/17
 ))
-\@DT@modctr=\count266
-\@ordinalctr=\count267
-\@orgargctr=\count268
-\@strctr=\count269
-\@tmpstrctr=\count270
-\@DT@loopN=\count271
-\@DT@X=\count272
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+\@DT@modctr=\count274
+\@ordinalctr=\count275
+\@orgargctr=\count276
+\@strctr=\count277
+\@tmpstrctr=\count278
+\@DT@loopN=\count279
+\@DT@X=\count280
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count273
-\@month=\count274
-\@year=\count275
-\c@HOUR=\count276
-\c@HOURXII=\count277
-\c@MINUTE=\count278
-\c@TOHOUR=\count279
-\c@TOMINUTE=\count280
-\c@SECOND=\count281
-\currenthour=\count282
-\currentminute=\count283
-\currentsecond=\count284
+\@day=\count281
+\@month=\count282
+\@year=\count283
+\c@HOUR=\count284
+\c@HOURXII=\count285
+\c@MINUTE=\count286
+\c@TOHOUR=\count287
+\c@TOMINUTE=\count288
+\c@SECOND=\count289
+\currenthour=\count290
+\currentminute=\count291
+\currentsecond=\count292
 Package datetime Info: No datetime.cfg file found, using default settings on input line 308.
-\@dtctr=\count285
-\dayofyear=\count286
-\dayofweek=\count287
+\@dtctr=\count293
+\dayofyear=\count294
+\dayofweek=\count295
 LaTeX Info: Redefining \today on input line 736.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/datetime/dt-ngerman.def
 File: dt-ngerman.def 2013/09/10
 LaTeX Info: Redefining \datengerman on input line 86.
 )
-\dt@a=\toks22
-\dt@b=\toks23
+\dt@a=\toks23
+\dt@b=\toks24
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
-\l__pdf_internal_box=\box51
+\l__color_backend_stack_int=\count296
+\l__pdf_internal_box=\box53
 ) (./EDS_Prak_Blatt_1.aux)
 \openout1 = `EDS_Prak_Blatt_1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
-\scratchdimen=\dimen145
-\scratchbox=\box52
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count292
-\MPscratchDim=\dimen146
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count297
+\scratchdimen=\dimen149
+\scratchbox=\box54
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen150
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) [1
+))
+\c@lstlisting=\count303
+ [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./EDS_Prak_Blatt_1.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -190,87 +222,94 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `EDS_Prak_Blatt_1.toc'.
 
  [1]
-<./pics/./MATLAB_Oberflaeche_1_b.png, id=16, 856.19875pt x 474.77374pt>
+<./pics/./MATLAB_Oberflaeche_1_b.png, id=18, 856.19875pt x 474.77374pt>
 File: ./pics/./MATLAB_Oberflaeche_1_b.png Graphic file (type png)
 <use ./pics/./MATLAB_Oberflaeche_1_b.png>
-Package pdftex.def Info: ./pics/./MATLAB_Oberflaeche_1_b.png  used on input line 46.
+Package pdftex.def Info: ./pics/./MATLAB_Oberflaeche_1_b.png  used on input line 68.
 (pdftex.def)             Requested size: 342.47343pt x 189.90613pt.
  [2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./pics/./MATLAB_Oberflaeche_1_b.png>]
-<./pics/./TOOLStirp.png, id=23, 798.985pt x 97.36375pt>
+<./pics/./TOOLStirp.png, id=25, 798.985pt x 97.36375pt>
 File: ./pics/./TOOLStirp.png Graphic file (type png)
 <use ./pics/./TOOLStirp.png>
-Package pdftex.def Info: ./pics/./TOOLStirp.png  used on input line 52.
+Package pdftex.def Info: ./pics/./TOOLStirp.png  used on input line 74.
 (pdftex.def)             Requested size: 359.53993pt x 43.81326pt.
 
-Overfull \hbox (14.53993pt too wide) in paragraph at lines 52--53
+Overfull \hbox (14.53993pt too wide) in paragraph at lines 74--75
 [][] 
  []
 
-<./pics/./TOOLStrip_Editor.png, id=24, 793.96625pt x 112.42pt>
+<./pics/./TOOLStrip_Editor.png, id=26, 793.96625pt x 112.42pt>
 File: ./pics/./TOOLStrip_Editor.png Graphic file (type png)
 <use ./pics/./TOOLStrip_Editor.png>
-Package pdftex.def Info: ./pics/./TOOLStrip_Editor.png  used on input line 58.
+Package pdftex.def Info: ./pics/./TOOLStrip_Editor.png  used on input line 80.
 (pdftex.def)             Requested size: 357.28151pt x 50.58853pt.
 
-Overfull \hbox (12.28151pt too wide) in paragraph at lines 58--59
+Overfull \hbox (12.28151pt too wide) in paragraph at lines 80--81
 [][] 
  []
 
 
-Overfull \hbox (2.33636pt too wide) in paragraph at lines 75--75
+Overfull \hbox (2.33636pt too wide) in paragraph at lines 97--97
 []\OT1/cmr/bx/n/12 M[]oglichkeiten In-for-ma-ti-on von \OT1/cmr/bx/it/12 MATLAB-Hilfe \OT1/cmr/bx/n/12 zu be-
  []
 
 [3 <./pics/./TOOLStirp.png> <./pics/./TOOLStrip_Editor.png>]
-Overfull \hbox (19.42401pt too wide) in paragraph at lines 89--92
+Overfull \hbox (19.42401pt too wide) in paragraph at lines 111--114
 \OT1/cmr/m/n/10 mie-ren li-nea-rer Steue-rungs-sys-te-me. Sie k[]onnen Ihr Sys-tem als []Ubertragungsfunktion,
  []
 
 [4]
-<./pics/./Bodediagramme.png, id=34, 1324.95pt x 1186.4325pt>
+<./pics/./Bodediagramme.png, id=36, 1324.95pt x 1186.4325pt>
 File: ./pics/./Bodediagramme.png Graphic file (type png)
 <use ./pics/./Bodediagramme.png>
-Package pdftex.def Info: ./pics/./Bodediagramme.png  used on input line 103.
+Package pdftex.def Info: ./pics/./Bodediagramme.png  used on input line 125.
 (pdftex.def)             Requested size: 397.48807pt x 355.9325pt.
 
-Overfull \hbox (52.48807pt too wide) in paragraph at lines 103--104
+Overfull \hbox (52.48807pt too wide) in paragraph at lines 125--126
 [][] 
  []
 
-[5 <./pics/./Bodediagramme.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+[5 <./pics/./Bodediagramme.png>] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--130
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
 
  []
 
-[6] [7] [8] (./EDS_Prak_Blatt_1.aux) ) 
+[7] [8]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 192.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 192.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 192.
+ [9] (./EDS_Prak_Blatt_1.aux) ) 
 Here is how much of TeX's memory you used:
- 4131 strings out of 476025
- 68935 string characters out of 5790017
- 1859388 words of memory out of 5000000
- 24530 multiletter control sequences out of 15000+600000
- 516699 words of font info for 46 fonts, out of 8000000 for 9000
+ 5953 strings out of 476025
+ 93646 string characters out of 5790017
+ 1869388 words of memory out of 5000000
+ 26320 multiletter control sequences out of 15000+600000
+ 519603 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,7n,76p,1098b,273s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on EDS_Prak_Blatt_1.pdf (9 pages, 392267 bytes).
+ 72i,7n,76p,1098b,1189s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on EDS_Prak_Blatt_1.pdf (10 pages, 424919 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

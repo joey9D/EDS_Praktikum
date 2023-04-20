@@ -6,7 +6,29 @@
 \usepackage{grffile}
 \graphicspath{ {./pics} }
 \DeclareUnicodeCharacter{2028}{\linebreak}
+\usepackage{listings}
+\usepackage{color}
 
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
 \usepackage{datetime}
 \newdateformat{myformat}{\THEDAY{ten }\monthname[\THEMONTH], \THEYEAR}
 
@@ -64,13 +86,13 @@
 			Der Current Folder Browser zeigt Ordner und Dateien im aktuellen Arbeitsverzeichnis an. Man braucht es um den Zugriff auf die Dateien und Skripte zu erleichtern und um sicherzustellen das MATLAB die Dateien findet. Es ist wichtig die Dateien in der richtigen Stelle zu speichern, da die MATLAB-Programme standardgemäß im aktuellen Arbeitsverzeichnis ausgeführt werden. 
 		
 		\subsection{\textit{Comand Window} - Was verbirgt sich dahinter?}
-			Das Command Window ist eine Konsole, die für die Eingabe von dem Benutzer verwendet wird und hier werden die MATLAB-Befehle eingegeben. Es wird auch eine Historie der davor eingegebenen Befehle gespeichert, sodass man sie immer wieder benutzen kann. 
+			Das Command Window ist eine Konsole, die für die Eingabe von dem Benutzer verwendet wird und hier werden die MATLAB-Befehle eingegeben. Es wird auch eine Historie der davor eingegebenen Befehle gespeichert, sodass man sie immer wieder benutzen kann.
 			
 		\subsection{\textit{Tool-Strip} - Was verbirgt sich dahinter?}
 			Der Tool-Strip ist eine Symbolleiste, hier findet man auf häufig verwendete Funktionen. Es bietet beispielsweise schnellen Zugriff auf das Command Window oder die Hilfe-Funktionen. 
 		
 		\subsection{Zweck des \textit{Workspaces}}
-			Der Workspace zeigt die aktuellen Variablen und ihre Werte an. Man kann es vergleichen mit einer Variablenansicht in anderen Programmierumgebungen. 
+			Der Workspace zeigt die aktuellen Variablen und ihre Werte an. Man kann es vergleichen mit einer Variablenansicht in anderen Programmierumgebungen. Wird diser gelöscht bzw. \textit{gecleared}, sind alle benutzten Variablen nicht mehr definiert und nachfolgende Eingaben oder Scripte, die diese Variablen benutzten oder benutzt haben bringen einen Fehler.
 		
 		\subsection{Möglichkeiten Information von \textit{MATLAB-Hilfe} zu bekommen}
 			\begin{itemize}
@@ -104,10 +126,33 @@
 			\caption{Bodediagramme entstanden aus bodePT1.m}
 			\label{fig1: Bodediagramm1}
 		\end{figure}
-		
-		
+		\begin{lstlisting}
+			w = logspace(-2,2);
+			G = ones(size	(w))./(1+j*w);
+			subplot(2, 1, 1), semilogx(w, 20 * log10(abs(G)))
+			grid, ylabel('|G(w)| [db]')
+			subplot(2, 1, 2), semilogx(w, 180*angle(G)/pi)
+			grid, xlabel('w normiert auf w-gernz')
+			ylabel('Phase [grad]')
+		\end{lstlisting}
+		Der oben gegebene Code erzeugt für ein PT1-Glied das zughörige Bodediagramm (Abb.4).
+		% - erstellt Vector mit Werten zwischen 10^-2 und 10^2
+		% - erstellt Vector G enthält 
+			% - size(w) 1 kreuz N Matrix; N = # Elemente in w entspricht Array mit N
+			% Elementen
+			% - ones(size(w)) erstellt 1 kreuz N Matrix, an jedem Index mit 1 befüllt
+			% - ./ teilt Elementweise jeden Wert des Arrays/Matrix durch das komplexe
+			% Ergebnis des Nenners
+			% - G ist der Ergebnis Array/die Matrix
+			% - subplot erstellt ein Raster/Matrix mit (x, y, ) Achse. Der 3. Wert gibt
+			% die Position des aktuellen Subplot an
+			% - semilogx erstellt Plot mit logarithmische X-Achse, linearer y-Achse.
+			% (x, y) gib die Daten für die entsprechende Achse
+			% erstellt zweiten Plot mit den (x, y) Werten für (w, WInkel in Grad)
 		\subsection{Normierter Frequenzgang PT1-Glied}
+			Um die normierte Form der Übertragsfunktion zu bekommen, nimmt statt der Variablen \textbf{s} im laplace-trsansformiereten Bereich, die im komplexen und Frequenzbereich $j\omega$. 
 			$$G(j\omega) = \frac{K_p}{\Big(1 + j\omega \cdot T\Big)}$$
+			s
 		\subsection{Normierter Frequenzgang PT2-Glied}
 			$$G(j\omega) = \frac{K_p \cdot \omega_0^2}{(j\omega)^2 + 2\cdot d\cdot \omega_0 \cdot j\omega + \omega_0^2}$$
 	\newpage	
@@ -139,10 +184,13 @@
 			\subsubsection{}
 				$PT_1$-Glied
 			\subsubsection{}
-				
+				$IT_1$-Glied
 			\subsubsection{}
 				$PT_2$-Glied
 	\newpage
 	\section{Aufgabe 4: MATLAB Control System Toolbox}
+		\subsection{Grund-Übertragungsverhalten}
+		\subsection{$G_O$ Übertragungsfunktion des offenen Regelkreises}
+		\subsection{Ortskurve $G_O$}
 	
 \end{document}

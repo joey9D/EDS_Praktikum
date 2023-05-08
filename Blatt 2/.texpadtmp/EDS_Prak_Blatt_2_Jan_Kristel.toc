@@ -16,3 +16,21 @@
 \contentsline {subsubsection}{\numberline {c)}}{5}{subsubsection.1.3.3}%
 \contentsline {subsubsection}{\numberline {d)}}{5}{subsubsection.1.3.4}%
 \contentsline {section}{\numberline {2}Optimierung eines einfachen Regelkreises}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Übertragungsverhalten}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}1.Näherung}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {a)}Lageregelkreis in Simulink}{6}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {b)}Optimierung des Regelkreises - durch ausprobieren}{7}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {c)}$K_{P,opt}$}{11}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}Lageregelkreis als $PT_2$-Glied}{12}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {a)}Simulink}{12}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {b)}$K_P$ ermitteln durch probieren}{12}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {c)}}{19}{subsubsection.2.3.3}%
+\contentsline {section}{\numberline {3}Optimierung nach Zielger/Nichols}{20}{section.3}%
+\contentsline {subsection}{\numberline {3.1}}{20}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Ziegler-Nichols-Einstellkriterium}{20}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Blockschaltbild}{21}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Regelverhalten von P-, I- und PID-Reglern}{26}{section.4}%
+\contentsline {subsection}{\numberline {4.1}P-Regler}{26}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}I-Regler}{27}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}PID-Regler}{28}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Störübertragungsfunktionen}{29}{subsection.4.4}%

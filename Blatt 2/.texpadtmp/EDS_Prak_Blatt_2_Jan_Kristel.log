@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.25)  29 APR 2023 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.25)  8 MAY 2023 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -342,7 +342,23 @@ LaTeX Info: Redefining \datengerman on input line 86.
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count313
 \l__pdf_internal_box=\box55
-) (/Users/joey/Documents/Studium/4. Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.aux)
+) (/Users/joey/Documents/Studium/4_Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.aux
+
+LaTeX Warning: Label `fig:subim1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subim1' multiply defined.
+
+
+LaTeX Warning: Label `fig:subim2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subim2' multiply defined.
+
+
+LaTeX Warning: Label `fig:image2' multiply defined.
+
+)
 \openout1 = `EDS_Prak_Blatt_2_Jan_Kristel.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -387,14 +403,14 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 39.
- (/Users/joey/Documents/Studium/4. Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.out) (/Users/joey/Documents/Studium/4. Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.out)
+ (/Users/joey/Documents/Studium/4_Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.out) (/Users/joey/Documents/Studium/4_Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.out)
 \@outlinefile=\write3
 \openout3 = `EDS_Prak_Blatt_2_Jan_Kristel.out'.
 
 \c@lstlisting=\count320
  [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/joey/Documents/Studium/4. Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.toc
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/joey/Documents/Studium/4_Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -409,44 +425,363 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.58 	\newpage
                [1] [2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [3]
-<../pics/Blatt 2/./Sprungfunktion_I_Glied.png, id=118, 1190.4475pt x 778.91pt>
+<../pics/Blatt 2/./Sprungfunktion_I_Glied.png, id=209, 1190.4475pt x 778.91pt>
 File: ../pics/Blatt 2/./Sprungfunktion_I_Glied.png Graphic file (type png)
 <use ../pics/Blatt 2/./Sprungfunktion_I_Glied.png>
 Package pdftex.def Info: ../pics/Blatt 2/./Sprungfunktion_I_Glied.png  used on input line 108.
 (pdftex.def)             Requested size: 261.89926pt x 171.36073pt.
-<../pics/Blatt 2/./Sprungfunktion_DT_1_Glied.png, id=120, 557.08125pt x 395.4775pt>
+<../pics/Blatt 2/./Sprungfunktion_DT_1_Glied.png, id=211, 557.08125pt x 395.4775pt>
 File: ../pics/Blatt 2/./Sprungfunktion_DT_1_Glied.png Graphic file (type png)
 <use ../pics/Blatt 2/./Sprungfunktion_DT_1_Glied.png>
 Package pdftex.def Info: ../pics/Blatt 2/./Sprungfunktion_DT_1_Glied.png  used on input line 114.
 (pdftex.def)             Requested size: 261.82822pt x 185.87445pt.
  [4 <../pics/Blatt 2/./Sprungfunktion_I_Glied.png> <../pics/Blatt 2/./Sprungfunktion_DT_1_Glied.png>]
-<../pics/Blatt 2/./Sprungfunktion_PT_2_Glied.png, id=129, 929.4725pt x 481.8pt>
+<../pics/Blatt 2/./Sprungfunktion_PT_2_Glied.png, id=220, 929.4725pt x 481.8pt>
 File: ../pics/Blatt 2/./Sprungfunktion_PT_2_Glied.png Graphic file (type png)
 <use ../pics/Blatt 2/./Sprungfunktion_PT_2_Glied.png>
 Package pdftex.def Info: ../pics/Blatt 2/./Sprungfunktion_PT_2_Glied.png  used on input line 121.
 (pdftex.def)             Requested size: 371.78242pt x 192.71658pt.
-<../pics/Blatt 2/./Sprungfunktion_PT_1_Glied_verzoegert.png, id=130, 559.08875pt x 387.4475pt>
+<../pics/Blatt 2/./Sprungfunktion_PT_1_Glied_verzoegert.png, id=221, 559.08875pt x 387.4475pt>
 File: ../pics/Blatt 2/./Sprungfunktion_PT_1_Glied_verzoegert.png Graphic file (type png)
 <use ../pics/Blatt 2/./Sprungfunktion_PT_1_Glied_verzoegert.png>
 Package pdftex.def Info: ../pics/Blatt 2/./Sprungfunktion_PT_1_Glied_verzoegert.png  used on input line 127.
 (pdftex.def)             Requested size: 223.63153pt x 154.97624pt.
- [5 <../pics/Blatt 2/./Sprungfunktion_PT_2_Glied.png> <../pics/Blatt 2/./Sprungfunktion_PT_1_Glied_verzoegert.png>] [6] (/Users/joey/Documents/Studium/4. Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.aux)
+ [5 <../pics/Blatt 2/./Sprungfunktion_PT_2_Glied.png> <../pics/Blatt 2/./Sprungfunktion_PT_1_Glied_verzoegert.png>]
+Overfull \hbox (2.36873pt too wide) in paragraph at lines 134--135
+\OT1/cmr/m/n/10 Die []Ubertragsfunktion/[]Ubertragungsverhalten f[]ur die Ge-schwin-dig-keit $\OML/cmm/m/it/10 v[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )$ lau-
+ []
+
+<../pics/Blatt 2/2_b_1_Regelkreis.png, id=230, 1461.46pt x 574.145pt>
+File: ../pics/Blatt 2/2_b_1_Regelkreis.png Graphic file (type png)
+<use ../pics/Blatt 2/2_b_1_Regelkreis.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_b_1_Regelkreis.png  used on input line 140.
+(pdftex.def)             Requested size: 584.57365pt x 229.65393pt.
+[6 <../pics/Blatt 2/2_b_1_Regelkreis.png>]
+<../pics/Blatt 2/2_b_2_KP_1.png, id=238, 1122.1925pt x 764.8575pt>
+File: ../pics/Blatt 2/2_b_2_KP_1.png Graphic file (type png)
+<use ../pics/Blatt 2/2_b_2_KP_1.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_b_2_KP_1.png  used on input line 147.
+(pdftex.def)             Requested size: 260.90706pt x 177.82753pt.
+<../pics/Blatt 2/2_b_2_KP_2.png, id=239, 1118.1775pt x 780.9175pt>
+File: ../pics/Blatt 2/2_b_2_KP_2.png Graphic file (type png)
+<use ../pics/Blatt 2/2_b_2_KP_2.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_b_2_KP_2.png  used on input line 152.
+(pdftex.def)             Requested size: 259.97359pt x 181.56143pt.
+ [7 <../pics/Blatt 2/2_b_2_KP_1.png> <../pics/Blatt 2/2_b_2_KP_2.png>]
+<../pics/Blatt 2/2_b_2_KP_3.png, id=248, 1120.185pt x 788.9475pt>
+File: ../pics/Blatt 2/2_b_2_KP_3.png Graphic file (type png)
+<use ../pics/Blatt 2/2_b_2_KP_3.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_b_2_KP_3.png  used on input line 158.
+(pdftex.def)             Requested size: 252.04784pt x 177.51756pt.
+<../pics/Blatt 2/2_b_2_KP_4.png, id=249, 1110.1475pt x 780.9175pt>
+File: ../pics/Blatt 2/2_b_2_KP_4.png Graphic file (type png)
+<use ../pics/Blatt 2/2_b_2_KP_4.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_b_2_KP_4.png  used on input line 163.
+(pdftex.def)             Requested size: 249.78935pt x 175.71077pt.
+ [8 <../pics/Blatt 2/2_b_2_KP_3.png> <../pics/Blatt 2/2_b_2_KP_4.png>]
+<../pics/Blatt 2/2_b_2_KP_5.png, id=258, 1122.1925pt x 784.9325pt>
+File: ../pics/Blatt 2/2_b_2_KP_5.png Graphic file (type png)
+<use ../pics/Blatt 2/2_b_2_KP_5.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_b_2_KP_5.png  used on input line 169.
+(pdftex.def)             Requested size: 252.49954pt x 176.61417pt.
+<../pics/Blatt 2/2_b_2_KP_7.png, id=259, 1118.1775pt x 788.9475pt>
+File: ../pics/Blatt 2/2_b_2_KP_7.png Graphic file (type png)
+<use ../pics/Blatt 2/2_b_2_KP_7.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_b_2_KP_7.png  used on input line 174.
+(pdftex.def)             Requested size: 251.59615pt x 177.51756pt.
+ [9 <../pics/Blatt 2/2_b_2_KP_5.png> <../pics/Blatt 2/2_b_2_KP_7.png>]
+<../pics/Blatt 2/2_b_2_KP_10.png, id=268, 1120.185pt x 782.925pt>
+File: ../pics/Blatt 2/2_b_2_KP_10.png Graphic file (type png)
+<use ../pics/Blatt 2/2_b_2_KP_10.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_b_2_KP_10.png  used on input line 180.
+(pdftex.def)             Requested size: 252.04784pt x 176.16246pt.
+<../pics/Blatt 2/2_b_2_KP_20.png, id=269, 1126.2075pt x 786.94pt>
+File: ../pics/Blatt 2/2_b_2_KP_20.png Graphic file (type png)
+<use ../pics/Blatt 2/2_b_2_KP_20.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_b_2_KP_20.png  used on input line 185.
+(pdftex.def)             Requested size: 253.40294pt x 177.06586pt.
+ [10 <../pics/Blatt 2/2_b_2_KP_10.png> <../pics/Blatt 2/2_b_2_KP_20.png>]
+<../pics/Blatt 2/2_b_2_KP_30.png, id=278, 1120.185pt x 782.925pt>
+File: ../pics/Blatt 2/2_b_2_KP_30.png Graphic file (type png)
+<use ../pics/Blatt 2/2_b_2_KP_30.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_b_2_KP_30.png  used on input line 191.
+(pdftex.def)             Requested size: 252.04784pt x 176.16246pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 195.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 195.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 195.
+
+File: ../pics/Blatt 2/2_b_2_KP_4.png Graphic file (type png)
+<use ../pics/Blatt 2/2_b_2_KP_4.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_b_2_KP_4.png  used on input line 198.
+(pdftex.def)             Requested size: 249.78935pt x 175.71077pt.
+[11 <../pics/Blatt 2/2_b_2_KP_30.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 203.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 203.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 203.
+
+<../pics/Blatt 2/2_c_Regelkreis_PT2.png, id=286, 1537.745pt x 365.365pt>
+File: ../pics/Blatt 2/2_c_Regelkreis_PT2.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_Regelkreis_PT2.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_Regelkreis_PT2.png  used on input line 206.
+(pdftex.def)             Requested size: 346.00116pt x 82.20915pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 210.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 210.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 210.
+
+<../pics/Blatt 2/2_c_KP_1.png, id=287, 1126.2075pt x 782.925pt>
+File: ../pics/Blatt 2/2_c_KP_1.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_1.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_1.png  used on input line 212.
+(pdftex.def)             Requested size: 253.40294pt x 176.16246pt.
+[12 <../pics/Blatt 2/2_c_Regelkreis_PT2.png> <../pics/Blatt 2/2_c_KP_1.png>]
+<../pics/Blatt 2/2_c_KP_2.png, id=299, 1128.215pt x 784.9325pt>
+File: ../pics/Blatt 2/2_c_KP_2.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_2.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_2.png  used on input line 218.
+(pdftex.def)             Requested size: 253.85463pt x 176.61417pt.
+<../pics/Blatt 2/2_c_KP_3.png, id=300, 1122.1925pt x 784.9325pt>
+File: ../pics/Blatt 2/2_c_KP_3.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_3.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_3.png  used on input line 223.
+(pdftex.def)             Requested size: 252.49954pt x 176.61417pt.
+ [13 <../pics/Blatt 2/2_c_KP_2.png> <../pics/Blatt 2/2_c_KP_3.png>]
+<../pics/Blatt 2/2_c_KP_4.png, id=309, 1128.215pt x 780.9175pt>
+File: ../pics/Blatt 2/2_c_KP_4.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_4.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_4.png  used on input line 229.
+(pdftex.def)             Requested size: 253.85463pt x 175.71077pt.
+<../pics/Blatt 2/2_c_KP_5.png, id=310, 1118.1775pt x 784.9325pt>
+File: ../pics/Blatt 2/2_c_KP_5.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_5.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_5.png  used on input line 234.
+(pdftex.def)             Requested size: 251.59615pt x 176.61417pt.
+ [14 <../pics/Blatt 2/2_c_KP_4.png> <../pics/Blatt 2/2_c_KP_5.png>]
+<../pics/Blatt 2/2_c_KP_6.png, id=319, 1128.215pt x 784.9325pt>
+File: ../pics/Blatt 2/2_c_KP_6.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_6.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_6.png  used on input line 240.
+(pdftex.def)             Requested size: 253.85463pt x 176.61417pt.
+<../pics/Blatt 2/2_c_KP_7.png, id=320, 1120.185pt x 782.925pt>
+File: ../pics/Blatt 2/2_c_KP_7.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_7.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_7.png  used on input line 245.
+(pdftex.def)             Requested size: 252.04784pt x 176.16246pt.
+ [15 <../pics/Blatt 2/2_c_KP_6.png> <../pics/Blatt 2/2_c_KP_7.png>]
+<../pics/Blatt 2/2_c_KP_8.png, id=330, 1124.2pt x 786.94pt>
+File: ../pics/Blatt 2/2_c_KP_8.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_8.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_8.png  used on input line 251.
+(pdftex.def)             Requested size: 252.95123pt x 177.06586pt.
+<../pics/Blatt 2/2_c_KP_9.png, id=331, 1120.185pt x 784.9325pt>
+File: ../pics/Blatt 2/2_c_KP_9.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_9.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_9.png  used on input line 256.
+(pdftex.def)             Requested size: 252.04784pt x 176.61417pt.
+ [16 <../pics/Blatt 2/2_c_KP_8.png> <../pics/Blatt 2/2_c_KP_9.png>]
+<../pics/Blatt 2/2_c_KP_10.png, id=340, 1130.2225pt x 774.895pt>
+File: ../pics/Blatt 2/2_c_KP_10.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_10.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_10.png  used on input line 262.
+(pdftex.def)             Requested size: 254.30634pt x 174.35567pt.
+<../pics/Blatt 2/2_c_KP_11.png, id=341, 1126.2075pt x 780.9175pt>
+File: ../pics/Blatt 2/2_c_KP_11.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_11.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_11.png  used on input line 267.
+(pdftex.def)             Requested size: 253.40294pt x 175.71077pt.
+ [17 <../pics/Blatt 2/2_c_KP_10.png> <../pics/Blatt 2/2_c_KP_11.png>]
+<../pics/Blatt 2/2_c_KP_12.png, id=350, 1118.1775pt x 782.925pt>
+File: ../pics/Blatt 2/2_c_KP_12.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_12.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_12.png  used on input line 273.
+(pdftex.def)             Requested size: 251.59615pt x 176.16246pt.
+<../pics/Blatt 2/2_c_KP_15.png, id=351, 1122.1925pt x 784.9325pt>
+File: ../pics/Blatt 2/2_c_KP_15.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_15.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_15.png  used on input line 278.
+(pdftex.def)             Requested size: 252.49954pt x 176.61417pt.
+ [18 <../pics/Blatt 2/2_c_KP_12.png> <../pics/Blatt 2/2_c_KP_15.png>]
+<../pics/Blatt 2/2_c_KP_20.png, id=361, 1118.1775pt x 778.91pt>
+File: ../pics/Blatt 2/2_c_KP_20.png Graphic file (type png)
+<use ../pics/Blatt 2/2_c_KP_20.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_c_KP_20.png  used on input line 284.
+(pdftex.def)             Requested size: 251.59615pt x 175.25908pt.
+ [19 <../pics/Blatt 2/2_c_KP_20.png>]
+<../pics/Blatt 2/3_a_Regelkreis.png, id=371, 2274.4975pt x 389.455pt>
+File: ../pics/Blatt 2/3_a_Regelkreis.png Graphic file (type png)
+<use ../pics/Blatt 2/3_a_Regelkreis.png>
+Package pdftex.def Info: ../pics/Blatt 2/3_a_Regelkreis.png  used on input line 301.
+(pdftex.def)             Requested size: 568.62299pt x 97.36351pt.
+ [20 <../pics/Blatt 2/3_a_Regelkreis.png>]
+<../pics/Blatt 2/2_3c/3_c_Regelkreis_schalter_oben.png, id=381, 821.0675pt x 166.6225pt>
+File: ../pics/Blatt 2/2_3c/3_c_Regelkreis_schalter_oben.png Graphic file (type png)
+<use ../pics/Blatt 2/2_3c/3_c_Regelkreis_schalter_oben.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/3_c_Regelkreis_schalter_oben.png  used on input line 336.
+(pdftex.def)             Requested size: 566.5372pt x 114.96964pt.
+<../pics/Blatt 2/2_3c/5.png, id=382, 423.83344pt x 381.67593pt>
+File: ../pics/Blatt 2/2_3c/5.png Graphic file (type png)
+<use ../pics/Blatt 2/2_3c/5.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/5.png  used on input line 342.
+(pdftex.def)             Requested size: 264.89523pt x 238.54688pt.
+ [21 <../pics/Blatt 2/2_3c/3_c_Regelkreis_schalter_oben.png> <../pics/Blatt 2/2_3c/5.png>]
+<../pics/Blatt 2/2_3c/6.png, id=391, 423.83344pt x 383.93437pt>
+File: ../pics/Blatt 2/2_3c/6.png Graphic file (type png)
+<use ../pics/Blatt 2/2_3c/6.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/6.png  used on input line 349.
+(pdftex.def)             Requested size: 172.4988pt x 184.9484pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 350.
+<../pics/Blatt 2/2_3c/7.png, id=392, 425.33907pt x 383.18156pt>
+File: ../pics/Blatt 2/2_3c/7.png Graphic file (type png)
+<use ../pics/Blatt 2/2_3c/7.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/7.png  used on input line 354.
+(pdftex.def)             Requested size: 172.50151pt x 184.94241pt.
+<../pics/Blatt 2/2_3c/8.png, id=393, 424.58624pt x 383.18156pt>
+File: ../pics/Blatt 2/2_3c/8.png Graphic file (type png)
+<use ../pics/Blatt 2/2_3c/8.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/8.png  used on input line 359.
+(pdftex.def)             Requested size: 172.50069pt x 184.94241pt.
+<../pics/Blatt 2/2_3c/9.png, id=394, 424.58624pt x 382.42876pt>
+File: ../pics/Blatt 2/2_3c/9.png Graphic file (type png)
+<use ../pics/Blatt 2/2_3c/9.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/9.png  used on input line 364.
+(pdftex.def)             Requested size: 172.50069pt x 184.94086pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 348--369
+[][] []
+ []
+
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 348--369
+[] []
+ []
+
+[22 <../pics/Blatt 2/2_3c/6.png> <../pics/Blatt 2/2_3c/7.png> <../pics/Blatt 2/2_3c/8.png> <../pics/Blatt 2/2_3c/9.png>]
+<../pics/Blatt 2/2_3c/10.png, id=407, 424.58624pt x 381.67593pt>
+File: ../pics/Blatt 2/2_3c/10.png Graphic file (type png)
+<use ../pics/Blatt 2/2_3c/10.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/10.png  used on input line 373.
+(pdftex.def)             Requested size: 172.50069pt x 184.94371pt.
+<../pics/Blatt 2/2_3c/20.png, id=408, 421.575pt x 381.67593pt>
+File: ../pics/Blatt 2/2_3c/20.png Graphic file (type png)
+<use ../pics/Blatt 2/2_3c/20.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/20.png  used on input line 378.
+(pdftex.def)             Requested size: 172.4995pt x 184.94371pt.
+<../pics/Blatt 2/2_3c/30.png, id=409, 423.83344pt x 384.6872pt>
+File: ../pics/Blatt 2/2_3c/30.png Graphic file (type png)
+<use ../pics/Blatt 2/2_3c/30.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/30.png  used on input line 383.
+(pdftex.def)             Requested size: 172.4988pt x 184.94711pt.
+<../pics/Blatt 2/2_3c/40.png, id=410, 423.08063pt x 381.67593pt>
+File: ../pics/Blatt 2/2_3c/40.png Graphic file (type png)
+<use ../pics/Blatt 2/2_3c/40.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/40.png  used on input line 388.
+(pdftex.def)             Requested size: 172.49582pt x 184.94371pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 372--393
+[][] []
+ []
+
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 372--393
+[] []
+ []
+
+[23 <../pics/Blatt 2/2_3c/10.png> <../pics/Blatt 2/2_3c/20.png> <../pics/Blatt 2/2_3c/30.png> <../pics/Blatt 2/2_3c/40.png>]
+<../pics/Blatt 2/2_3c/3_c_Regelkreis.png, id=420, 1660.2025pt x 375.4025pt>
+File: ../pics/Blatt 2/2_3c/3_c_Regelkreis.png Graphic file (type png)
+<use ../pics/Blatt 2/2_3c/3_c_Regelkreis.png>
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/3_c_Regelkreis.png  used on input line 397.
+(pdftex.def)             Requested size: 581.07959pt x 131.39284pt.
+<../pics/Blatt 2/Sprungantwort.png, id=421, 1120.185pt x 784.9325pt>
+File: ../pics/Blatt 2/Sprungantwort.png Graphic file (type png)
+<use ../pics/Blatt 2/Sprungantwort.png>
+Package pdftex.def Info: ../pics/Blatt 2/Sprungantwort.png  used on input line 404.
+(pdftex.def)             Requested size: 296.84761pt x 208.00612pt.
+ [24 <../pics/Blatt 2/2_3c/3_c_Regelkreis.png> <../pics/Blatt 2/Sprungantwort.png>] [25]
+<../pics/Blatt 2/4_a_Blockschaltbild.png, id=435, 832.10875pt x 163.61125pt>
+File: ../pics/Blatt 2/4_a_Blockschaltbild.png Graphic file (type png)
+<use ../pics/Blatt 2/4_a_Blockschaltbild.png>
+Package pdftex.def Info: ../pics/Blatt 2/4_a_Blockschaltbild.png  used on input line 429.
+(pdftex.def)             Requested size: 499.2691pt x 98.1675pt.
+<../pics/Blatt 2/4_a_Graph.png, id=436, 561.09625pt x 393.47pt>
+File: ../pics/Blatt 2/4_a_Graph.png Graphic file (type png)
+<use ../pics/Blatt 2/4_a_Graph.png>
+Package pdftex.def Info: ../pics/Blatt 2/4_a_Graph.png  used on input line 435.
+(pdftex.def)             Requested size: 336.66034pt x 236.0838pt.
+ [26 <../pics/Blatt 2/4_a_Blockschaltbild.png> <../pics/Blatt 2/4_a_Graph.png>]
+<../pics/Blatt 2/4_b_Blockschaltbild.png, id=445, 863.225pt x 148.555pt>
+File: ../pics/Blatt 2/4_b_Blockschaltbild.png Graphic file (type png)
+<use ../pics/Blatt 2/4_b_Blockschaltbild.png>
+Package pdftex.def Info: ../pics/Blatt 2/4_b_Blockschaltbild.png  used on input line 445.
+(pdftex.def)             Requested size: 517.939pt x 89.13368pt.
+<../pics/Blatt 2/4_b_Graph.png, id=446, 557.08125pt x 391.4625pt>
+File: ../pics/Blatt 2/4_b_Graph.png Graphic file (type png)
+<use ../pics/Blatt 2/4_b_Graph.png>
+Package pdftex.def Info: ../pics/Blatt 2/4_b_Graph.png  used on input line 451.
+(pdftex.def)             Requested size: 334.25133pt x 234.8793pt.
+ [27 <../pics/Blatt 2/4_b_Blockschaltbild.png> <../pics/Blatt 2/4_b_Graph.png>]
+<../pics/Blatt 2/4_c_Blockschaltbild.png, id=455, 857.2025pt x 128.48pt>
+File: ../pics/Blatt 2/4_c_Blockschaltbild.png Graphic file (type png)
+<use ../pics/Blatt 2/4_c_Blockschaltbild.png>
+Package pdftex.def Info: ../pics/Blatt 2/4_c_Blockschaltbild.png  used on input line 461.
+(pdftex.def)             Requested size: 514.32547pt x 77.08858pt.
+<../pics/Blatt 2/4_c_Graph.png, id=456, 558.085pt x 392.46625pt>
+File: ../pics/Blatt 2/4_c_Graph.png Graphic file (type png)
+<use ../pics/Blatt 2/4_c_Graph.png>
+Package pdftex.def Info: ../pics/Blatt 2/4_c_Graph.png  used on input line 467.
+(pdftex.def)             Requested size: 334.85359pt x 235.48155pt.
+ [28 <../pics/Blatt 2/4_c_Blockschaltbild.png> <../pics/Blatt 2/4_c_Graph.png>] [29] (/Users/joey/Documents/Studium/4_Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `EDS_Prak_Blatt_2_Jan_Kristel.out' has not changed.
-(rerunfilecheck)             Checksum: 6CF9757E8631B5BF76CAA1EF86D3E7DF;1598.
+(rerunfilecheck)             Checksum: E05F34AE6D6F35E7A71E688A6CCB2275;4472.
  ) 
 Here is how much of TeX's memory you used:
- 14747 strings out of 476025
- 246146 string characters out of 5790017
- 1858388 words of memory out of 5000000
- 34952 multiletter control sequences out of 15000+600000
- 515994 words of font info for 44 fonts, out of 8000000 for 9000
+ 15327 strings out of 476025
+ 260812 string characters out of 5790017
+ 1863388 words of memory out of 5000000
+ 35395 multiletter control sequences out of 15000+600000
+ 519690 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,77p,1110b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "/Users/joey/Documents/Studium/4. Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.pdf" (7 pages, 194786 bytes).
+ 75i,10n,77p,1110b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on "/Users/joey/Documents/Studium/4_Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.pdf" (30 pages, 1384006 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 581 PDF objects out of 1000 (max. 8388607)
+ 408 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 521 words of extra memory for PDF output out of 10000 (max. 10000000)
 

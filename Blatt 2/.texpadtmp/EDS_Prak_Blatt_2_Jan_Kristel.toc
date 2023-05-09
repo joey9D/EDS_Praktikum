@@ -29,8 +29,9 @@
 \contentsline {subsection}{\numberline {3.1}}{20}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Ziegler-Nichols-Einstellkriterium}{20}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Blockschaltbild}{21}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Regelverhalten von P-, I- und PID-Reglern}{26}{section.4}%
-\contentsline {subsection}{\numberline {4.1}P-Regler}{26}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}I-Regler}{27}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}PID-Regler}{28}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Störübertragungsfunktionen}{29}{subsection.4.4}%
+\contentsline {subsection}{\numberline {3.4}Unterschiede zwischen den Übertragungsfunktionen}{25}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Regelverhalten von P-, I- und PID-Reglern}{27}{section.4}%
+\contentsline {subsection}{\numberline {4.1}P-Regler}{27}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}I-Regler}{28}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}PID-Regler}{29}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Störübertragungsfunktionen}{30}{subsection.4.4}%

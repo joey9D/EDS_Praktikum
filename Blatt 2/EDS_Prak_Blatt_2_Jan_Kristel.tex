@@ -314,7 +314,7 @@
 					 \hline\hline
 					 P & $\frac{T_g}{(K_s \cdot T_u}$ &  &  \\  
 					 \hline
-					 PI & $0.9 \cdot \frac{K_s}{T_u}$ & $3.3 \cdot T_u$ &    \\
+					 PI & $0.9 \cdot \frac{T_g}{(K_s \cdot T_u}$ & $3.3 \cdot T_u$ &    \\
 					 \hline
 					 PID & $1.2 \cdot \frac{T_g}{(K_s \cdot T_u)}$ & $2.0 \cdot T_u$ & $0.5 \cdot T_u$
 				\end{tabular}
@@ -418,7 +418,18 @@
 \vspace{1mm}
 			Die gesamte Rücktransformation lautet dann:
 			$$g(t) = g_1(t) + g_2(t) = 2.453 \cdot e^{-0.333t} - 0.453 \cdot e^{-t}$$
-				
+\vspace{3mm}
+			Für einen PI-Regler sieht das ganze folgender Maßen aus:
+			\begin{figure}[h]
+				\includegraphics[scale=0.5, center]{3_c_PI_Regler_Sprung_Stoß.png}
+				\caption{Sprung- in blau und Stoßanregung in gelb; mit dem errechneten $K_P = 1.87$}
+				\label{fig32: Sprung. und Stoßantwort}
+			\end{figure}	
+			
+		\subsection{Unterschiede zwischen den Übertragungsfunktionen}
+		Ein P-Regler im Regelkreis sorgt für eine begrenzte Steuerungsgenauigkeit. Dabei kann es zu einem Überschwingen, einem langsamen Einschwingverhalten und einer Abweichung von der Sollwert-Position kommen.
+		Ein PI-Regler kann das System genauer regeln. Dadurch kann schneller auf Veränderungen reagiert werden, Überschwingen minimal halten und eine stabilere Regelung erreichen.\\
+		Die Übergangsfunktion eines PI-Regler ist also schneller und stabiler als bei einem P-Regler.
 \newpage
 	\section{Regelverhalten von P-, I- und PID-Reglern}
 		\subsection{P-Regler}
@@ -470,7 +481,17 @@
 			\end{figure}
 \newpage
 		\subsection{Störübertragungsfunktionen}
-			
+			Der Zusammengeführte Regelkreis:
+			\begin{figure}[h]
+				\includegraphics[scale = 0.4, center]{4_d_Blockschaltbild_alle_zusammen.png}
+				\caption{Regelkreis der Zusammengeführten Funktionen aus b), c) un d).}
+				\label{fig37:4_d_alle_Regelkreise}
+			\end{figure}
+			\begin{figure}[h]
+				\includegraphics[scale = 0.45, center]{4_d_alle_Graphen.png}
+				\caption{Alle Graphen zusammen in ein Bild.}
+				\label{fig37:4_d_alle_Regelkreise}
+			\end{figure}
 				
 				
 				

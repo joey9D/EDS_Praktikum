@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.25)  9 MAY 2023 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.25)  10 MAY 2023 16:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -653,43 +653,43 @@ Package pdftex.def Info: ../pics/Blatt 2/3_a_Regelkreis.png  used on input line 
 <../pics/Blatt 2/2_3c/3_c_Regelkreis_schalter_oben.png, id=386, 821.0675pt x 166.6225pt>
 File: ../pics/Blatt 2/2_3c/3_c_Regelkreis_schalter_oben.png Graphic file (type png)
 <use ../pics/Blatt 2/2_3c/3_c_Regelkreis_schalter_oben.png>
-Package pdftex.def Info: ../pics/Blatt 2/2_3c/3_c_Regelkreis_schalter_oben.png  used on input line 336.
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/3_c_Regelkreis_schalter_oben.png  used on input line 338.
 (pdftex.def)             Requested size: 566.5372pt x 114.96964pt.
 <../pics/Blatt 2/2_3c/5.png, id=387, 423.83344pt x 381.67593pt>
 File: ../pics/Blatt 2/2_3c/5.png Graphic file (type png)
 <use ../pics/Blatt 2/2_3c/5.png>
-Package pdftex.def Info: ../pics/Blatt 2/2_3c/5.png  used on input line 342.
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/5.png  used on input line 344.
 (pdftex.def)             Requested size: 264.89523pt x 238.54688pt.
  [21 <../pics/Blatt 2/2_3c/3_c_Regelkreis_schalter_oben.png> <../pics/Blatt 2/2_3c/5.png>]
 <../pics/Blatt 2/2_3c/6.png, id=396, 423.83344pt x 383.93437pt>
 File: ../pics/Blatt 2/2_3c/6.png Graphic file (type png)
 <use ../pics/Blatt 2/2_3c/6.png>
-Package pdftex.def Info: ../pics/Blatt 2/2_3c/6.png  used on input line 349.
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/6.png  used on input line 351.
 (pdftex.def)             Requested size: 172.4988pt x 184.9484pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 350.
+(Font)              <9> on input line 352.
 <../pics/Blatt 2/2_3c/7.png, id=397, 425.33907pt x 383.18156pt>
 File: ../pics/Blatt 2/2_3c/7.png Graphic file (type png)
 <use ../pics/Blatt 2/2_3c/7.png>
-Package pdftex.def Info: ../pics/Blatt 2/2_3c/7.png  used on input line 354.
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/7.png  used on input line 356.
 (pdftex.def)             Requested size: 172.50151pt x 184.94241pt.
 <../pics/Blatt 2/2_3c/8.png, id=398, 424.58624pt x 383.18156pt>
 File: ../pics/Blatt 2/2_3c/8.png Graphic file (type png)
 <use ../pics/Blatt 2/2_3c/8.png>
-Package pdftex.def Info: ../pics/Blatt 2/2_3c/8.png  used on input line 359.
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/8.png  used on input line 361.
 (pdftex.def)             Requested size: 172.50069pt x 184.94241pt.
 <../pics/Blatt 2/2_3c/9.png, id=399, 424.58624pt x 382.42876pt>
 File: ../pics/Blatt 2/2_3c/9.png Graphic file (type png)
 <use ../pics/Blatt 2/2_3c/9.png>
-Package pdftex.def Info: ../pics/Blatt 2/2_3c/9.png  used on input line 364.
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/9.png  used on input line 366.
 (pdftex.def)             Requested size: 172.50069pt x 184.94086pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 348--369
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 350--371
 [][] []
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 348--369
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 350--371
 [] []
  []
 
@@ -697,30 +697,30 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 348--369
 <../pics/Blatt 2/2_3c/10.png, id=412, 424.58624pt x 381.67593pt>
 File: ../pics/Blatt 2/2_3c/10.png Graphic file (type png)
 <use ../pics/Blatt 2/2_3c/10.png>
-Package pdftex.def Info: ../pics/Blatt 2/2_3c/10.png  used on input line 373.
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/10.png  used on input line 375.
 (pdftex.def)             Requested size: 172.50069pt x 184.94371pt.
 <../pics/Blatt 2/2_3c/20.png, id=413, 421.575pt x 381.67593pt>
 File: ../pics/Blatt 2/2_3c/20.png Graphic file (type png)
 <use ../pics/Blatt 2/2_3c/20.png>
-Package pdftex.def Info: ../pics/Blatt 2/2_3c/20.png  used on input line 378.
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/20.png  used on input line 380.
 (pdftex.def)             Requested size: 172.4995pt x 184.94371pt.
 <../pics/Blatt 2/2_3c/30.png, id=414, 423.83344pt x 384.6872pt>
 File: ../pics/Blatt 2/2_3c/30.png Graphic file (type png)
 <use ../pics/Blatt 2/2_3c/30.png>
-Package pdftex.def Info: ../pics/Blatt 2/2_3c/30.png  used on input line 383.
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/30.png  used on input line 385.
 (pdftex.def)             Requested size: 172.4988pt x 184.94711pt.
 <../pics/Blatt 2/2_3c/40.png, id=415, 423.08063pt x 381.67593pt>
 File: ../pics/Blatt 2/2_3c/40.png Graphic file (type png)
 <use ../pics/Blatt 2/2_3c/40.png>
-Package pdftex.def Info: ../pics/Blatt 2/2_3c/40.png  used on input line 388.
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/40.png  used on input line 390.
 (pdftex.def)             Requested size: 172.49582pt x 184.94371pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 372--393
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 374--395
 [][] []
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 372--393
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 374--395
 [] []
  []
 
@@ -728,63 +728,63 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 372--393
 <../pics/Blatt 2/2_3c/3_c_Regelkreis.png, id=425, 1660.2025pt x 375.4025pt>
 File: ../pics/Blatt 2/2_3c/3_c_Regelkreis.png Graphic file (type png)
 <use ../pics/Blatt 2/2_3c/3_c_Regelkreis.png>
-Package pdftex.def Info: ../pics/Blatt 2/2_3c/3_c_Regelkreis.png  used on input line 397.
+Package pdftex.def Info: ../pics/Blatt 2/2_3c/3_c_Regelkreis.png  used on input line 399.
 (pdftex.def)             Requested size: 581.07959pt x 131.39284pt.
 <../pics/Blatt 2/Sprungantwort.png, id=426, 1120.185pt x 784.9325pt>
 File: ../pics/Blatt 2/Sprungantwort.png Graphic file (type png)
 <use ../pics/Blatt 2/Sprungantwort.png>
-Package pdftex.def Info: ../pics/Blatt 2/Sprungantwort.png  used on input line 404.
+Package pdftex.def Info: ../pics/Blatt 2/Sprungantwort.png  used on input line 406.
 (pdftex.def)             Requested size: 296.84761pt x 208.00612pt.
  [24 <../pics/Blatt 2/2_3c/3_c_Regelkreis.png> <../pics/Blatt 2/Sprungantwort.png>]
 <../pics/Blatt 2/3_c_PI_Regler_Sprung_Stoß.png, id=436, 558.085pt x 391.4625pt>
 File: ../pics/Blatt 2/3_c_PI_Regler_Sprung_Stoß.png Graphic file (type png)
 <use ../pics/Blatt 2/3_c_PI_Regler_Sprung_Stoß.png>
-Package pdftex.def Info: ../pics/Blatt 2/3_c_PI_Regler_Sprung_Stoß.png  used on input line 424.
+Package pdftex.def Info: ../pics/Blatt 2/3_c_PI_Regler_Sprung_Stoß.png  used on input line 427.
 (pdftex.def)             Requested size: 279.04182pt x 195.73076pt.
  [25 <../pics/Blatt 2/3_c_PI_Regler_Sprung_Stoß.png>] [26]
-<../pics/Blatt 2/4_a_Blockschaltbild.png, id=447, 827.09pt x 134.5025pt>
+<../pics/Blatt 2/4_a_Blockschaltbild.png, id=447, 1130.2225pt x 208.78pt>
 File: ../pics/Blatt 2/4_a_Blockschaltbild.png Graphic file (type png)
 <use ../pics/Blatt 2/4_a_Blockschaltbild.png>
-Package pdftex.def Info: ../pics/Blatt 2/4_a_Blockschaltbild.png  used on input line 440.
-(pdftex.def)             Requested size: 496.25783pt x 80.7021pt.
+Package pdftex.def Info: ../pics/Blatt 2/4_a_Blockschaltbild.png  used on input line 443.
+(pdftex.def)             Requested size: 565.10988pt x 104.38972pt.
 <../pics/Blatt 2/4_a_Graph.png, id=448, 555.07375pt x 388.45125pt>
 File: ../pics/Blatt 2/4_a_Graph.png Graphic file (type png)
 <use ../pics/Blatt 2/4_a_Graph.png>
-Package pdftex.def Info: ../pics/Blatt 2/4_a_Graph.png  used on input line 446.
+Package pdftex.def Info: ../pics/Blatt 2/4_a_Graph.png  used on input line 449.
 (pdftex.def)             Requested size: 333.0468pt x 233.07254pt.
  [27 <../pics/Blatt 2/4_a_Blockschaltbild.png> <../pics/Blatt 2/4_a_Graph.png>]
-<../pics/Blatt 2/4_b_Blockschaltbild.png, id=457, 816.04875pt x 139.52126pt>
+<../pics/Blatt 2/4_b_Blockschaltbild.png, id=457, 1167.36125pt x 226.8475pt>
 File: ../pics/Blatt 2/4_b_Blockschaltbild.png Graphic file (type png)
 <use ../pics/Blatt 2/4_b_Blockschaltbild.png>
-Package pdftex.def Info: ../pics/Blatt 2/4_b_Blockschaltbild.png  used on input line 456.
-(pdftex.def)             Requested size: 489.63304pt x 83.7134pt.
-<../pics/Blatt 2/4_b_Graph.png, id=458, 556.0775pt x 391.4625pt>
+Package pdftex.def Info: ../pics/Blatt 2/4_b_Blockschaltbild.png  used on input line 459.
+(pdftex.def)             Requested size: 583.6792pt x 113.42346pt.
+<../pics/Blatt 2/4_b_Graph.png, id=458, 558.085pt x 392.46625pt>
 File: ../pics/Blatt 2/4_b_Graph.png Graphic file (type png)
 <use ../pics/Blatt 2/4_b_Graph.png>
-Package pdftex.def Info: ../pics/Blatt 2/4_b_Graph.png  used on input line 462.
-(pdftex.def)             Requested size: 333.64908pt x 234.8793pt.
+Package pdftex.def Info: ../pics/Blatt 2/4_b_Graph.png  used on input line 465.
+(pdftex.def)             Requested size: 334.85359pt x 235.48155pt.
  [28 <../pics/Blatt 2/4_b_Blockschaltbild.png> <../pics/Blatt 2/4_b_Graph.png>]
-<../pics/Blatt 2/4_c_Blockschaltbild.png, id=467, 713.66624pt x 187.70125pt>
+<../pics/Blatt 2/4_c_Blockschaltbild.png, id=467, 1165.35374pt x 224.84pt>
 File: ../pics/Blatt 2/4_c_Blockschaltbild.png Graphic file (type png)
 <use ../pics/Blatt 2/4_c_Blockschaltbild.png>
-Package pdftex.def Info: ../pics/Blatt 2/4_c_Blockschaltbild.png  used on input line 472.
-(pdftex.def)             Requested size: 428.20305pt x 112.62161pt.
-<../pics/Blatt 2/4_c_Graph.png, id=468, 558.085pt x 392.46625pt>
+Package pdftex.def Info: ../pics/Blatt 2/4_c_Blockschaltbild.png  used on input line 475.
+(pdftex.def)             Requested size: 582.67545pt x 112.41972pt.
+<../pics/Blatt 2/4_c_Graph.png, id=468, 584.1825pt x 464.73625pt>
 File: ../pics/Blatt 2/4_c_Graph.png Graphic file (type png)
 <use ../pics/Blatt 2/4_c_Graph.png>
-Package pdftex.def Info: ../pics/Blatt 2/4_c_Graph.png  used on input line 478.
-(pdftex.def)             Requested size: 334.85359pt x 235.48155pt.
+Package pdftex.def Info: ../pics/Blatt 2/4_c_Graph.png  used on input line 481.
+(pdftex.def)             Requested size: 292.09053pt x 232.36755pt.
  [29 <../pics/Blatt 2/4_c_Blockschaltbild.png> <../pics/Blatt 2/4_c_Graph.png>]
-<../pics/Blatt 2/4_d_Blockschaltbild_alle_zusammen.png, id=477, 1255.69125pt x 452.69125pt>
+<../pics/Blatt 2/4_d_Blockschaltbild_alle_zusammen.png, id=477, 949.5475pt x 377.41pt>
 File: ../pics/Blatt 2/4_d_Blockschaltbild_alle_zusammen.png Graphic file (type png)
 <use ../pics/Blatt 2/4_d_Blockschaltbild_alle_zusammen.png>
-Package pdftex.def Info: ../pics/Blatt 2/4_d_Blockschaltbild_alle_zusammen.png  used on input line 486.
-(pdftex.def)             Requested size: 502.26761pt x 181.07329pt.
-<../pics/Blatt 2/4_d_alle_Graphen.png, id=478, 558.085pt x 389.455pt>
+Package pdftex.def Info: ../pics/Blatt 2/4_d_Blockschaltbild_alle_zusammen.png  used on input line 489.
+(pdftex.def)             Requested size: 379.81227pt x 150.96132pt.
+<../pics/Blatt 2/4_d_alle_Graphen.png, id=478, 559.08875pt x 388.45125pt>
 File: ../pics/Blatt 2/4_d_alle_Graphen.png Graphic file (type png)
 <use ../pics/Blatt 2/4_d_alle_Graphen.png>
-Package pdftex.def Info: ../pics/Blatt 2/4_d_alle_Graphen.png  used on input line 491.
-(pdftex.def)             Requested size: 251.13593pt x 175.25313pt.
+Package pdftex.def Info: ../pics/Blatt 2/4_d_alle_Graphen.png  used on input line 494.
+(pdftex.def)             Requested size: 279.54369pt x 194.22514pt.
  [30 <../pics/Blatt 2/4_d_Blockschaltbild_alle_zusammen.png> <../pics/Blatt 2/4_d_alle_Graphen.png>] (/Users/joey/Documents/Studium/4_Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -801,7 +801,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,10n,77p,1110b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "/Users/joey/Documents/Studium/4_Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.pdf" (31 pages, 1457283 bytes).
+Output written on "/Users/joey/Documents/Studium/4_Sem/EDS/EDS_Praktikum/Blatt 2/.texpadtmp/EDS_Prak_Blatt_2_Jan_Kristel.pdf" (31 pages, 1468302 bytes).
 PDF statistics:
  600 PDF objects out of 1000 (max. 8388607)
  420 compressed objects within 5 object streams

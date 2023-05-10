@@ -302,6 +302,7 @@
 				\caption{Regelkreis für die Sprungantwort}
 				\label{fig30: Regelkreis}
 			\end{figure}
+			GraphischeErmittlung der Werte aus der gegebenen Grafik:
 			\begin{itemize}
 				\item $K_s = 2$
 				\item $T_g = 5$
@@ -321,6 +322,7 @@
 			\end{center}
 \vspace{3mm}
 			Mit den oben definierten Werten für $K_s$, $T_u$ und $T_v$ bekommt man für die benötigten Zellen der Tabelle, \textit{P} und \textit{PI}, folgende Werte:
+\vspace{3mm}
 			\begin{center}
 				\begin{tabular}{ c || c | c | c }
 					 Regler & $K_P$ & $T_n$ & $T_v$ \\ 
@@ -406,11 +408,12 @@
 				\label{fig32: Sprung. und Stoßantwort}
 			\end{figure}
 \newpage
+%Um die Übergangsfunktion h(t) zu erhalten, dividieren Sie einfach den Ausgang des Regelkreises durch den Eingang des Regelkreises. 
 			Die Übertragungsfunktion lautet dafür dann:
 			$$h(t) = \frac{2.08 \cdot 2}{3s^2 + 4s + 1}$$
 			Die Gewichtsfunktion $g(t)$ ist die rücktransformierte der Übertragungsfunktion. \\
 			Diese lautet dann :
-			$$G(s) = \frac{2.453}{s+} - \frac{0.453}{s+1}$$
+			$$G(s) = \frac{2.453}{s+0.33} - \frac{0.453}{s+1}$$
 \vspace{2mm}	
 			$$g_1(t) = 2.453 \cdot e^{-0.33t}$$
 \vspace{0mm}
@@ -437,7 +440,7 @@
 			$$G_S(s) = \frac{K_s}{(1 + T\cdot S)^4}$$
 			lässt sich dieser Regelkreis bilden:
 			\begin{figure}[h]
-				\includegraphics[scale=0.6, center]{4_a_Blockschaltbild.png}
+				\includegraphics[scale=0.5, center]{4_a_Blockschaltbild.png}
 				\caption{Regelkreis mit P-Regler}
 				\label{fig33: Blockschaltbild_P_Regler}
 			\end{figure}
@@ -453,7 +456,7 @@
 			$$G_S(s) = \frac{K_s}{(1 + T\cdot S)^4}$$
 			lässt sich dieser Regelkreis bilden:
 			\begin{figure}[h]
-				\includegraphics[scale=0.6, center]{4_b_Blockschaltbild.png}
+				\includegraphics[scale=0.5, center]{4_b_Blockschaltbild.png}
 				\caption{Regelkreis mit I-Regler}
 				\label{fig35: Blockschaltbild_I_Regler}
 			\end{figure}
@@ -469,13 +472,13 @@
 			$$G_S(s) = \frac{K_s}{(1 T\cdot S)^4}$$
 			lässt sich dieser Regelkreis bilden:
 			\begin{figure}[h]
-				\includegraphics[scale=0.6, center]{4_c_Blockschaltbild.png}
+				\includegraphics[scale=0.5, center]{4_c_Blockschaltbild.png}
 				\caption{Regelkreis mit P-Regler}
 				\label{fig37: Blockschaltbild_PID_Regler}
 			\end{figure}
 			Der Graph/das Signal dazu hat folgende Form:
 			\begin{figure}[h]
-				\includegraphics[scale = 0.6, center]{4_c_Graph.png}
+				\includegraphics[scale = 0.5, center]{4_c_Graph.png}
 				\caption{Das Signal zu oben angegebenen Regelkreis}
 				\label{fig38: 4_c_Graph}
 			\end{figure}
@@ -488,7 +491,7 @@
 				\label{fig37:4_d_alle_Regelkreise}
 			\end{figure}
 			\begin{figure}[h]
-				\includegraphics[scale = 0.45, center]{4_d_alle_Graphen.png}
+				\includegraphics[scale = 0.5, center]{4_d_alle_Graphen.png}
 				\caption{Alle Graphen zusammen in ein Bild.}
 				\label{fig37:4_d_alle_Regelkreise}
 			\end{figure}

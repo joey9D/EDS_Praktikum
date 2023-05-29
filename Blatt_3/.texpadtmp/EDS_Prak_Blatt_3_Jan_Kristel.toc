@@ -1,0 +1,11 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Petri-Netz}{2}{section.1}%
+\contentsline {section}{\numberline {2}Anfangsmarkierung}{2}{section.2}%
+\contentsline {section}{\numberline {3}Inzidenzmatrix}{2}{section.3}%
+\contentsline {section}{\numberline {4}Erreichbarkeitsgraph}{2}{section.4}%
+\contentsline {section}{\numberline {5}Netzeigenschaften}{2}{section.5}%
+\contentsline {section}{\numberline {6}Schaltvektor}{2}{section.6}%
+\contentsline {section}{\numberline {7}Nachweis für den Schaltevektor und die Schaltsequenz $\sigma $}{2}{section.7}%
+\contentsline {section}{\numberline {8}Modellierung mit Petri06}{2}{section.8}%
+\contentsline {section}{\numberline {9}Modellierung mit PetriEdiSim}{2}{section.9}%
+\contentsline {section}{\numberline {10}Vor- und Nachteile von Petri06 und PetriEdiSim}{2}{section.10}%

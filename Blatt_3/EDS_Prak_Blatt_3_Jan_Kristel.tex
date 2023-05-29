@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{subcaption}
+\usepackage[export]{adjustbox}
+\graphicspath{ {../pics/Blatt 2} }
+\usepackage{alphalph}
+\DeclareUnicodeCharacter{2028}{\linebreak}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+\usepackage{datetime}
+\newdateformat{myformat}{\THEDAY{ten }\monthname[\THEMONTH], \THEYEAR}
+
+\begin{document}
+		\begin{titlepage}
+		\centering
+		{\scshape\LARGE
+			Ereignisdiskrete Systeme
+			\par}
+		\vspace{1.5cm}
+		{\huge\bfseries Praktikum Blatt 3 - Petri-Netze\par}
+		\vspace{1.5cm}
+		{\LARGE\itshape Jan Kristel, Alexandra Moritz\par}
+		\vfill
+			Aufsicht von Frau Rembold\par
+			
+		\vfill	
+			{\large \today \par}	
+		
+	\end{titlepage}
+	
+	\tableofcontents
+	\newpage
+	
+	\section{Petri-Netz}
+	\section{Anfangsmarkierung}
+	\section{Inzidenzmatrix}
+	\section{Erreichbarkeitsgraph}
+	\section{Netzeigenschaften}
+		\subsection*{Erreichbarkeit}
+		\subsection*{Deadlock}
+		\subsection*{Lebendigkeit}
+		\subsection*{Umkehrbarkeit}
+		\subsection*{Konfliktfreiheit}
+		\subsection*{Beschränktheit}
+	\section{Schaltvektor}
+	\section{Nachweis für den Schaltevektor und die Schaltsequenz $\sigma$}
+	\section{Modellierung mit Petri06}
+	\section{Modellierung mit PetriEdiSim}
+	\section{Vor- und Nachteile von Petri06 und PetriEdiSim}
+	
+\end{document}

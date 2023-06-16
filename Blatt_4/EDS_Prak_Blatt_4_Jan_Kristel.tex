@@ -331,13 +331,19 @@
 			In $State\ B$ wird ein Variable `var1` deklariert. Diese bekommt den Rückgabewert der aufgerufenen Funktion, hier `quadrat(var1)`, zugewiesen.
 			\begin{figure}[h]
 				\centering
-				\includegraphics[scale=0.7]{Aufgabe4.3eChart.png}
+				\includegraphics[scale=0.6]{Aufgabe4.3eChart.png}
 				\caption{Erweiterung durch eine grafische Funktion.}
 				\label{fig_12: Aufg_3e_Chart}
 			\end{figure}
 \clearpage
 \newpage
 	\section{Anwendungsbeispiel - Mischer}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=0.5]{Aufgabe4.4a.png}
+			\caption{Simulink-Modell für den Mischer.}
+			\label{fig_12: Aufg_4a_SimulinkModell}
+		\end{figure}
 		\subsection{}
 			Aus der 1.Differntialgleichung
 			$$c\cdot m \cdot \frac{d\vartheta(t)}{dt}= P(t) - O\cdot k \cdot \vartheta(t) $$
@@ -348,6 +354,7 @@
 			Mit $K=\frac{1}{O\cdot k} = 1$ und $T_1 = c\cdot m \cdot k = 30 sec$ sieht die Übertragsfunktions für den Mischer so aus:
 			$$G(s) = \frac{0.001}{30s + 1}$$
 			Es handelt sich damit um ein PT-1-Glied.
+\clearpage
 		\subsection{}
 			\begin{figure}[h]
 				\centering
@@ -355,14 +362,14 @@
 				\caption{Erstelltes Chart für die Mischersteuerung.}
 				\label{fig_13: Aufg_4b_Mischer}
 			\end{figure}
-\newpage
 		\subsection{}
 			\begin{figure}[h]
 				\centering
-				\includegraphics[scale=0.8]{Aufgabe4cTempDisplay.png}
+				\includegraphics[scale=0.46]{Aufgabe4cTempDisplay.png}
 				\caption{Der Temperaturverlauf der Heizung. Zu erkennen sind der Heizvorgang von $0 - 70$°C und das Abkühlen von $100 - 70$°C}
 				\label{fig_14: Aufg_4c_TempGraph}
 			\end{figure}
+\clearpage
 		\subsection{}
 			Aus dem Graph (Abb. 14) lässt sich die Zeit sehr gut ablesen. Die Dauer des
 			\begin{itemize}

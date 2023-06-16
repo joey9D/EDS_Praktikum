@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.25)  15 JUN 2023 15:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.25)  16 JUN 2023 12:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -806,53 +806,62 @@ Overfull \hbox (34.67638pt too wide) in paragraph at lines 326--327
 File: ../pics/Blatt_4/Aufgabe4.3eChart.png Graphic file (type png)
 <use ../pics/Blatt_4/Aufgabe4.3eChart.png>
 Package pdftex.def Info: ../pics/Blatt_4/Aufgabe4.3eChart.png  used on input line 334.
-(pdftex.def)             Requested size: 485.15926pt x 281.7507pt.
-
-Overfull \hbox (51.53926pt too wide) in paragraph at lines 334--335
- [][] 
- []
-
+(pdftex.def)             Requested size: 415.85683pt x 241.5041pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13
 
  <../pics/Blatt_4/Aufgabe4.3e.png>] [14 <../pics/Blatt_4/Aufgabe4.3eChart.png>]
-<../pics/Blatt_4/Aufgabe4.4Chart.png, id=289, 943.02313pt x 393.47pt>
-File: ../pics/Blatt_4/Aufgabe4.4Chart.png Graphic file (type png)
-<use ../pics/Blatt_4/Aufgabe4.4Chart.png>
-Package pdftex.def Info: ../pics/Blatt_4/Aufgabe4.4Chart.png  used on input line 354.
-(pdftex.def)             Requested size: 471.5104pt x 196.73451pt.
+<../pics/Blatt_4/Aufgabe4.4a.png, id=289, 919.93687pt x 381.425pt>
+File: ../pics/Blatt_4/Aufgabe4.4a.png Graphic file (type png)
+<use ../pics/Blatt_4/Aufgabe4.4a.png>
+Package pdftex.def Info: ../pics/Blatt_4/Aufgabe4.4a.png  used on input line 343.
+(pdftex.def)             Requested size: 459.96732pt x 190.71202pt.
 
-Overfull \hbox (37.89041pt too wide) in paragraph at lines 354--355
+Overfull \hbox (26.34732pt too wide) in paragraph at lines 343--344
  [][] 
  []
 
 [15
 
- <../pics/Blatt_4/Aufgabe4.4Chart.png>]
+ <../pics/Blatt_4/Aufgabe4.4a.png>]
+<../pics/Blatt_4/Aufgabe4.4Chart.png, id=299, 943.02313pt x 393.47pt>
+File: ../pics/Blatt_4/Aufgabe4.4Chart.png Graphic file (type png)
+<use ../pics/Blatt_4/Aufgabe4.4Chart.png>
+Package pdftex.def Info: ../pics/Blatt_4/Aufgabe4.4Chart.png  used on input line 361.
+(pdftex.def)             Requested size: 471.5104pt x 196.73451pt.
+
+Overfull \hbox (37.89041pt too wide) in paragraph at lines 361--362
+ [][] 
+ []
+
 <../pics/Blatt_4/Aufgabe4cTempDisplay.png, id=300, 423.08063pt x 373.89688pt>
 File: ../pics/Blatt_4/Aufgabe4cTempDisplay.png Graphic file (type png)
 <use ../pics/Blatt_4/Aufgabe4cTempDisplay.png>
-Package pdftex.def Info: ../pics/Blatt_4/Aufgabe4cTempDisplay.png  used on input line 362.
-(pdftex.def)             Requested size: 338.46495pt x 299.1179pt.
- [16 <../pics/Blatt_4/Aufgabe4cTempDisplay.png>] (/Users/joey/Documents/Studium/4_Sem/EDS/EDS_Praktikum/Blatt_4/.texpadtmp/EDS_Prak_Blatt_4_Jan_Kristel.aux)
+Package pdftex.def Info: ../pics/Blatt_4/Aufgabe4cTempDisplay.png  used on input line 368.
+(pdftex.def)             Requested size: 194.61945pt x 171.99464pt.
+[16
+
+ <../pics/Blatt_4/Aufgabe4.4Chart.png> <../pics/Blatt_4/Aufgabe4cTempDisplay.png>] [17
+
+] (/Users/joey/Documents/Studium/4_Sem/EDS/EDS_Praktikum/Blatt_4/.texpadtmp/EDS_Prak_Blatt_4_Jan_Kristel.aux)
 Package rerunfilecheck Info: File `EDS_Prak_Blatt_4_Jan_Kristel.out' has not changed.
 (rerunfilecheck)             Checksum: A50A3263813875037CEECA919779C81F;5288.
  ) 
 Here is how much of TeX's memory you used:
- 16218 strings out of 476025
- 268634 string characters out of 5790017
+ 16230 strings out of 476025
+ 268964 string characters out of 5790017
  1866388 words of memory out of 5000000
- 36347 multiletter control sequences out of 15000+600000
+ 36356 multiletter control sequences out of 15000+600000
  517516 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,76p,1110b,689s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on /Users/joey/Documents/Studium/4_Sem/EDS/EDS_Praktikum/Blatt_4/.texpadtmp/EDS_Prak_Blatt_4_Jan_Kristel.pdf (17 pages, 986230 bytes).
+Output written on /Users/joey/Documents/Studium/4_Sem/EDS/EDS_Praktikum/Blatt_4/.texpadtmp/EDS_Prak_Blatt_4_Jan_Kristel.pdf (18 pages, 1047871 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 309 compressed objects within 4 object streams
- 69 named destinations out of 1000 (max. 500000)
- 343 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 397 PDF objects out of 1000 (max. 8388607)
+ 313 compressed objects within 4 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 348 words of extra memory for PDF output out of 10000 (max. 10000000)
 
